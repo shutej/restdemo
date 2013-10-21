@@ -14,7 +14,7 @@
         success: function(response) {
             // For debugging!
             console.log("success", response);
-            $("#root").text(response.Name);
+            $("#root").text(response.name);
         },
         error: function(_, what) {
             // For debugging!

@@ -17,8 +17,8 @@ import (
 
 // User is an example model object served by the REST API.
 type User struct {
-	Id   string
-	Name string
+	Id   string `json:"id"`
+	Name string `json:"name"`
 }
 
 // GetUserV1 serves GET requests for users.  A real implementation would
